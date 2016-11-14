@@ -12,12 +12,12 @@ override the host and port for jar execution.
 ## Usage
 
 The API can be invoked using requests of this form:
-    http://localhost:8080/hotel/TLA?sort=ASC
-    http://localhost:8080/hotel/TLA?apikey=AB1234&sort=ASC
+ - http://localhost:8080/hotel/TLA?sort=ASC
+ - http://localhost:8080/hotel/TLA?apikey=AB1234&sort=ASC
 * where TLA is the 3 letter abbreviation to identify a city, i.e BNG=Bangkok
 
 ## Configuration Files
 
-api-rate.properties contains the apikey values and associated rate limiting times
-hoteldb.csv contains the hotel data
-application.conf provides logging config
+ - api-rate.properties contains the apikey values and associated rate limiting times
+ - hoteldb.csv contains the hotel data
+ - application.conf provides logging config
